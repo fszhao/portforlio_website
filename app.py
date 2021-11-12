@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
 
     title = "Welcome to my Portfolio Website!"
-    title_text = "I am a Data Scientist and Analytics Engineer specializing in Clinical Informatics"
+    title_text = "I am a Data Scientist and Analytics Engineer specializing in clinical informatics"
 
     return render_template('index.html',
                                 title_text=title_text,
@@ -22,7 +22,7 @@ def about():
     title = "About Me"
     title_text = "A little bit about myself, my journey and my trajectory."
 
-    
+
     return render_template('/about.html',
                                 title_text=title_text,
                                 title=title,
